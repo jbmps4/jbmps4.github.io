@@ -18,7 +18,7 @@ $(document).ready(function(){
 		  // Verify that x and y already have some value
 		  if (x && y) {
 		    // Scroll window by difference between current and previous positions
-		    window.scrollBy(e.clientX - x, e.clientY - y);
+		    //window.scrollBy(e.clientX - x, e.clientY - y);
 		  }
 
 		  // Store current position
