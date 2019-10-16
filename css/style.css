@@ -20,6 +20,8 @@ header div{
 	display: inline-block;
 }
 
+a {text-decoration: none;}
+
 #plus{
 	width: 3em;
 	background-image: url("../images/plus.png");
