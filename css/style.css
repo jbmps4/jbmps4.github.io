@@ -22,7 +22,7 @@ header div{
 
 #plus{
 	width: 3em;
-	background-image: url("https://s20.postimg.org/9jdjr9lml/plus.png");
+	background-image: url("../images/plus.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -31,7 +31,7 @@ header div{
 
 #info{
 	width: 3em;
-	background-image: url("https://i.postimg.cc/m2x13xDd/info.png");
+	background-image: url("../images/info.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -48,7 +48,7 @@ header div{
 
 #friends{
 	width: 3em;
-	background-image: url("https://i.postimg.cc/vHwbv8v1/friends.png");
+	background-image: url("../images/friends.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -58,7 +58,7 @@ header div{
 #user{
 	margin-left: 1em;
 	width: 3em;
-	background-image: url("https://s20.postimg.org/yvwsexlfh/user.png");
+	background-image: url("../images/user.png");
 	background-size: 140%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -76,7 +76,7 @@ header div{
 #trophies{
 	margin-left: 1em;
 	width: 3em;
-	background-image: url("https://i.postimg.cc/wTKmp1Cx/trophy.png");
+	background-image: url("../images/trophy.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -104,22 +104,22 @@ header div{
 }
 
 .squareGame{
-	height: 11em;
-	width: 11em;
+	height: 5em;
+	width: 5em;
 	vertical-align: top;
 	display: inline-block;
 	transition: 0.3s ease;
 }
 
 .squareGame:hover{
-	height: 16.5em;
-	width: 15em;
+	height: 7em;
+	width: 7em;
 	border: 3px solid white;
 	cursor: pointer;
 }
 
 .squareGame:hover .imgGame{
-	height: 85%;
+	height: 68%;
 }
 
 .imgGame{
@@ -142,7 +142,7 @@ header div{
 	color: white;
 	font-size: 1.2em;
 	font-family: Arial;
-	transform: translate(13.2em,-1.5em);
+	transform: translate(6.5em,-1em);
 }
 /*SQUARE IMAGE*****************************************/
 
@@ -151,39 +151,39 @@ header div{
 }
 
 .ps{
-	background-image: url("https://i.postimg.cc/c1pRT9TJ/ps.png");
+	background-image: url("../images/ps.png");
 }
 
 .new{
-	background-image: url("https://i.postimg.cc/X7SSnLHG/new.png");
+	background-image: url("../images/new.png");
 }
 
 .overwatch{
-	background-image: url("https://i.postimg.cc/kX3QwRGP/overwatch.png");
+	background-image: url("../images/overwatch.png");
 }
 
 .rocketLeague{
-	background-image: url("https://i.postimg.cc/sfkLSJhY/rl.png");
+	background-image: url("../images/rl.png");
 }
 
 .cod{
-	background-image: url("https://i.postimg.cc/9F5G2TcL/cod.png");
+	background-image: url("../images/cod.png");
 }
 
 .furi{
-	background-image: url("https://i.postimg.cc/dtcZTYk6/furi.png");
+	background-image: url("../images/furi.png");
 }
 
 .youtube{
-	background-image: url("https://i.postimg.cc/L6KF3S10/yt.png");
+	background-image: url("../images/yt.png");
 }
 
 .bro{
-	background-image: url("https://i.postimg.cc/Dykz0PJb/bro.png");
+	background-image: url("../images/bro.png");
 }
 
 .outlast{
-	background-image: url("https://i.postimg.cc/8PQ5xhLw/outlast.png");
+	background-image: url("../images/outlast.png");
 }
 
 .storeGame{
@@ -193,35 +193,35 @@ header div{
 }
 
 #god{
-	background-image: url("https://i.postimg.cc/bY7QwSfF/god.png");
+	background-image: url("../images/god.png");
 }
 
 #raider{
-	background-image: url("https://i.postimg.cc/VLyY6nsT/tomb.png");
+	background-image: url("../images/tomb.png");
 }
 
 #codi{
-	background-image: url("https://i.postimg.cc/MKkq3q1Q/if.png");
+	background-image: url("../images/if.png");
 }
 
 #mafia{
-	background-image: url("https://i.postimg.cc/gk94xTPp/mafia.png");
+	background-image: url("../images/mafia.png");
 }
 
 #destiny{
-	background-image: url("https://i.postimg.cc/ncbwWCgJ/destiny.png");
+	background-image: url("../images/destiny.png");
 }
 
 #bt1{
-	background-image: url("https://i.postimg.cc/fT4GmHvD/b1.png");
+	background-image: url("../images/b1.png");
 }
 
 #lg{
-	background-image: url("https://i.postimg.cc/sfkNC263/horizon.png");
+	background-image: url("../images/horizon.png");
 }
 
 #per{
-	background-image: url("https://i.postimg.cc/QxGz5trH/per.png");
+	background-image: url("../images/per.png");
 }
 
 /*store*/
