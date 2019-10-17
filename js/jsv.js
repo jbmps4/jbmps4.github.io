@@ -18,15 +18,15 @@ $(document).ready(function(){
 
 		function handleMouse(e) {
 		  // Verify that x and y already have some value
-		  if (x && y) {
+		 // if (x && y) {
 		    // Scroll window by difference between current and previous positions
 		       // window.scrollBy(e.clientX - x, e.clientY - y);
 		  }
 
 		  // Store current position
-		  x = e.clientX;
-		  y = e.clientY;
-		}
+		//  x = e.clientX;
+		//  y = e.clientY;
+		//}
 
 		// Assign handleMouse to mouse movement events
 		document.onmousemove = handleMouse;
@@ -46,7 +46,7 @@ $(document).ready(function(){
 	function timeout() {
 	    setTimeout(function () {
 	    	if(time===0){
-				$("#textInfo").text("Self-Exploit Host 2.0");
+				$("#textInfo").text("PS4 Self-Exploit Host v2.0");
 				$("#textInfo").addClass("animated slideInDown");
 				time++;
 			}else
