@@ -42,24 +42,6 @@ a {text-decoration: none;}
 	line-height: 3em;
 }
 
-#user{
-	margin-left: 12em;
-	width: 3em;
-	background-image: url("../images/user.png");
-	background-size: 140%;
-	background-repeat: no-repeat;
-	background-position: center;
-	float: left;
-}
-
-#userName{
-	color: white;
-	font-family: arial;
-	width: 25%;
-	float: left;
-	line-height: 3em;
-}
-
 #clock{
 	font-family: arial;
 	line-height: 3em;
@@ -93,6 +75,7 @@ a {text-decoration: none;}
 .squareGame{
 	height: 5em;
 	width: 5em;
+	margin-left: 1em;
 	vertical-align: top;
 	display: inline-block;
 	transition: 0.3s ease;
@@ -102,6 +85,7 @@ a {text-decoration: none;}
 	margin-top: 10em;
 	height: 5em;
 	width: 5em;
+	margin-left: 1em;
 	vertical-align: top;
 	display: inline-block;
 	transition: 0.3s ease;
@@ -164,7 +148,7 @@ a {text-decoration: none;}
 	color: white;
 	font-size: 1.2em;
 	font-family: Arial;
-	transform: translate(6.5em,-1em);
+	transform: translate(0em,.2em);
 }
 
 .gameTitle2{
@@ -172,7 +156,7 @@ a {text-decoration: none;}
 	color: white;
 	font-size: 1.2em;
 	font-family: Arial;
-	transform: translate(6.5em,-1em);
+	transform: translate(0em,.2em);
 }
 /*SQUARE IMAGE*****************************************/
 
@@ -220,69 +204,6 @@ a {text-decoration: none;}
 	background-image: url("../images/linux.png");
 }
 
- /* .storeGame{
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
-#god{
-	background-image: url("../images/god.png");
-}
-
-#raider{
-	background-image: url("../images/tomb.png");
-}
-
-#codi{
-	background-image: url("../images/if.png");
-}
-
-#mafia{
-	background-image: url("../images/mafia.png");
-}
-
-#destiny{
-	background-image: url("../images/destiny.png");
-}
-
-#bt1{
-	background-image: url("../images/b1.png");
-}
-
-#lg{
-	background-image: url("../images/horizon.png");
-}
-
-#per{
-	background-image: url("../images/per.png");
-}
-
-
-#store{
-	padding: 1em;
-	padding-top: 6em;
-	margin-top: -3em;
-	width: 60em;
-	height: 25em;
-	padding-left: 12em;
-}
-
-#store div{
-	float: left;
-	border: 3px solid rgba(245,245,245,1);
-	width: 12em;
-	height: 12em;
-	display: inline-block;
-}
-
-#store div:hover{
-	transform: scale(1.1, 1.1);
-	box-shadow: 0px 5px 10px 3px rgba(45,45,45,.7);
-	transition: 0.3s ease;
-}
-
-*/ 
 /*waves****************************/
 
 
