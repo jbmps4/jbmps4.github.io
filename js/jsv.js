@@ -7,7 +7,9 @@
 
 $(document).ready(function(){
 		$(".gameText").hide();
+		$(".gameText2").hide();
 		$('.gameTitle').hide();
+		$('.gameTitle2').hide();
 		$('#store').hide();
 		timeout();
 
@@ -18,7 +20,7 @@ $(document).ready(function(){
 		  // Verify that x and y already have some value
 		  if (x && y) {
 		    // Scroll window by difference between current and previous positions
-		    //window.scrollBy(e.clientX - x, e.clientY - y);
+		       // window.scrollBy(e.clientX - x, e.clientY - y);
 		  }
 
 		  // Store current position
@@ -44,17 +46,17 @@ $(document).ready(function(){
 	function timeout() {
 	    setTimeout(function () {
 	    	if(time===0){
-				$("#textInfo").text("Rocket League new content!");
+				$("#textInfo").text("Self-Exploit Host 2.0");
 				$("#textInfo").addClass("animated slideInDown");
 				time++;
 			}else
 				if(time===1){
-				$("#textInfo").text("Outlast 2 Demo Downloaded");
+				$("#textInfo").text("by : SCORPION");
 				$("#textInfo").addClass("animated slideInDown");
 				time++;
 			}else
 				if(time===2){
-				$("#textInfo").text("Overwatch Update V 1.2.3");
+				$("#textInfo").text("t.me/psfourhax");
 				$("#textInfo").addClass("animated slideInDown");
 				time=0;
 			}
@@ -74,6 +76,19 @@ $(document).ready(function(){
 		function(){
 			$(this).find('.gameText').hide();
 			$(this).find('.gameTitle').hide();
+			$(this).find('#store').hide();
+		}
+	);
+
+	$(".squareGame2").hover(
+		function(){
+			$(this).find('.gameText2').show();
+			$(this).find('.gameTitle2').show();
+			$(this).find('#store').show();
+		},
+		function(){
+			$(this).find('.gameText2').hide();
+			$(this).find('.gameTitle2').hide();
 			$(this).find('#store').hide();
 		}
 	);
