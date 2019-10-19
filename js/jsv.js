@@ -8,8 +8,10 @@
 $(document).ready(function(){
 		$(".gameText").hide();
 		$(".gameText2").hide();
+		$(".gameText3").hide();
 		$('.gameTitle').hide();
 		$('.gameTitle2').hide();
+		$('.gameTitle3').hide();
 		$('#store').hide();
 		timeout();
 
@@ -89,6 +91,19 @@ $(document).ready(function(){
 		function(){
 			$(this).find('.gameText2').hide();
 			$(this).find('.gameTitle2').hide();
+			$(this).find('#store').hide();
+		}
+	);
+
+	$(".squareGame3").hover(
+		function(){
+			$(this).find('.gameText3').show();
+			$(this).find('.gameTitle3').show();
+			$(this).find('#store').show();
+		},
+		function(){
+			$(this).find('.gameText3').hide();
+			$(this).find('.gameTitle3').hide();
 			$(this).find('#store').hide();
 		}
 	);
