@@ -59,7 +59,6 @@ a {text-decoration: none;}
 	left: 0;
 	padding: 5em;
 	z-index: 99;
-	
 }
 
 #games2{
@@ -68,8 +67,16 @@ a {text-decoration: none;}
 	top: .5em;
 	left: 0;
 	padding: 5em;
-	z-index: 98;
-	
+	z-index: 1;
+}
+
+#games3{
+	width: 1120em;
+	position: absolute;
+	top: .5em;
+	left: 0;
+	padding: 5em;
+	z-index: -1;
 }
 
 .squareGame{
@@ -83,6 +90,16 @@ a {text-decoration: none;}
 
 .squareGame2{
 	margin-top: 10em;
+	height: 5em;
+	width: 5em;
+	margin-left: 1em;
+	vertical-align: top;
+	display: inline-block;
+	transition: 0.3s ease;
+}
+
+.squareGame3{
+	margin-top: 19em;
 	height: 5em;
 	width: 5em;
 	margin-left: 1em;
@@ -105,11 +122,22 @@ a {text-decoration: none;}
 	cursor: pointer;
 }
 
+.squareGame3:hover{
+	height: 7em;
+	width: 7em;
+	border: 3px solid white;
+	cursor: pointer;
+}
+
 .squareGame:hover .imgGame{
 	height: 68%;
 }
 
 .squareGame2:hover .imgGame2{
+	height: 68%;
+}
+
+.squareGame3:hover .imgGame3{
 	height: 68%;
 }
 
@@ -121,6 +149,13 @@ a {text-decoration: none;}
 }
 
 .imgGame2{
+	height: 100%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.imgGame3{
 	height: 100%;
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -143,6 +178,14 @@ a {text-decoration: none;}
 	background-color: rgba(255,255,255,.2);
 }
 
+.gameText3{
+	color: white;
+	font-family: arial;
+	text-align: center;
+	line-height: 2.4em;
+	background-color: rgba(255,255,255,.2);
+}
+
 .gameTitle{
 	position: absolute;
 	color: white;
@@ -152,6 +195,14 @@ a {text-decoration: none;}
 }
 
 .gameTitle2{
+	position: absolute;
+	color: white;
+	font-size: 1.2em;
+	font-family: Arial;
+	transform: translate(0em,.2em);
+}
+
+.gameTitle3{
 	position: absolute;
 	color: white;
 	font-size: 1.2em;
@@ -184,8 +235,8 @@ a {text-decoration: none;}
 	background-image: url("../images/webrte.png");
 }
 
-.test{
-	background-image: url("../images/test.png");
+.fan{
+	background-image: url("../images/fan.png");
 }
 
 .test{
