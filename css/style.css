@@ -33,7 +33,8 @@ header{
 
 header div{
 	height: 100%;
-	display: inline-block;
+	display: ruby-text;
+	margin-top: -1.5em;
 }
 
 a {text-decoration: none;}
@@ -56,7 +57,7 @@ a {text-decoration: none;}
 }
 
 #pdate1{
-	margin-top: -.19em;
+	margin-top: -1.5em;
 	font-family: BHOMA;
 	font-size: 1.1em;
 	line-height: 3em;
@@ -67,7 +68,7 @@ a {text-decoration: none;}
 }
 
 #timec{
-	margin-top: 1em;
+	margin-top: -.1em;
 	font-family: BHOMA;
 	font-size: 1.1em;
 	line-height: 3em;
