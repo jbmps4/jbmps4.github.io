@@ -28,7 +28,7 @@ header{
 	width: 100%;
 	top: 0;
 	left: 0;
-	z-index: 999;
+	z-index: 10;
 }
 
 header div{
@@ -54,12 +54,13 @@ a {text-decoration: none;}
 	width: 25%;
 	float: left;
 	line-height: 3em;
+	font-size: 1.3em;
 }
 
 #pdate1{
 	margin-top: -1.5em;
 	font-family: BHOMA;
-	font-size: 1.1em;
+	font-size: 1.3em;
 	line-height: 3em;
 	float: right;
 	margin-right: 1em;
@@ -70,7 +71,7 @@ a {text-decoration: none;}
 #timec{
 	margin-top: -.1em;
 	font-family: BHOMA;
-	font-size: 1.1em;
+	font-size: 1.3em;
 	line-height: 3em;
 	float: right;
 	margin-right: -5.5em;
@@ -86,7 +87,7 @@ a {text-decoration: none;}
 	top: .5em;
 	left: 0;
 	padding: 5em;
-	z-index: 99;
+	z-index: 2;
 }
 
 #games2{
@@ -108,6 +109,7 @@ a {text-decoration: none;}
 }
 
 .squareGame{
+	margin-top: 2em;
 	height: 5em;
 	width: 5em;
 	margin-left: 1em;
@@ -117,7 +119,7 @@ a {text-decoration: none;}
 }
 
 .squareGame2{
-	margin-top: 11em;
+	margin-top: 13em;
 	height: 5em;
 	width: 5em;
 	margin-left: 1em;
@@ -127,7 +129,7 @@ a {text-decoration: none;}
 }
 
 .squareGame3{
-	margin-top: 22em;
+	margin-top: 24em;
 	height: 5em;
 	width: 5em;
 	margin-left: 1em;
@@ -222,7 +224,7 @@ mark {padding-left: 10px; padding-right: 10px; color:white; background-color: rg
 .gameTitle{
 	position: absolute;
 	color: white;
-	font-size: 1.4em;
+	font-size: 1.5em;
 	font-family: BTABSSOM;
 	transform: translate(0em,0em);
 	direction:rtl;
@@ -231,7 +233,7 @@ mark {padding-left: 10px; padding-right: 10px; color:white; background-color: rg
 .gameTitle2{
 	position: absolute;
 	color: white;
-	font-size: 1.4em;
+	font-size: 1.5em;
 	font-family: BTABSSOM;
 	transform: translate(0em,0em);
 	direction:rtl;
@@ -240,7 +242,7 @@ mark {padding-left: 10px; padding-right: 10px; color:white; background-color: rg
 .gameTitle3{
 	position: absolute;
 	color: white;
-	font-size: 1.4em;
+	font-size: 1.5em;
 	font-family: BTABSSOM;
 	transform: translate(0em,0em);
 	direction:rtl;
@@ -317,6 +319,10 @@ mark {padding-left: 10px; padding-right: 10px; color:white; background-color: rg
 
 .Linux{
 	background-image: url("../images/linux.png");
+}
+
+.Linux2{
+	background-image: url("../images/linux2.png");
 }
 
 .ftprw{
