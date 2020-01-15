@@ -7,7 +7,7 @@ css\animate.min.css
 css\style.css
 css\BTABSSOM.TTF
 css\PWSchoolScript.ttf
-css\BFARNAZ.ttf
+css\BFARNAZ.TTF
 css\BHOMA.TTF
 images\apptousb.png
 images\binloader.png
@@ -29,6 +29,7 @@ images\henscreenshot.png
 images\rif.png
 images\info.png
 images\linux.png
+images\linux2.png
 images\hen15.png
 images\remoteplay.png
 images\hen18.png
@@ -38,7 +39,6 @@ images\unblocker.png
 images\hen18vr.png
 js\jquery.min.js
 js\jsv.js
-js\pdate.min.js
 js\persianc.js
 payloads\xmbinstaller.html
 payloads\2gblinux.html
@@ -50,6 +50,7 @@ payloads\FTP.bin
 payloads\exploit.css
 payloads\blocker.html
 payloads\Dumper.bin
+payloads\exploit.js
 payloads\exploit_bin.js
 payloads\exploit_bin_x2.js
 payloads\exploit_bin_x3.js
@@ -61,6 +62,8 @@ payloads\Hen15.html
 payloads\Hen16.bin
 payloads\Hen17.bin
 payloads\Hen18.bin
+payloads\hen211.html
+payloads\Hen211.bin
 payloads\hen18vrmod.html
 payloads\HenVR18.bin
 payloads\Linux2GB.bin
@@ -91,4 +94,6 @@ payloads\vtxhen17.html
 payloads\vtxhen18.html
 payloads\vtxhenc0d3mod.html
 payloads\webrte2.bin
+payloads\baikal.html
+payloads\PS4-Linux-Loader_normal.bin
 payloads\xmbcache.html
